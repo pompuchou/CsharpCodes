@@ -1,0 +1,8 @@
+// _timer 中要呼叫原本windows的control
+                    // do something
+                    //this.Dispatcher.Invoke((Action)(() =>
+                    //{
+                    //    // 更新資料
+                    //    Refresh_data();
+			  this.Label1.Content = "Yes";
+                    //}));
